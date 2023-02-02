@@ -33,6 +33,7 @@ def scientific_calculate(operation, num1):
         natLog = math.log(num1)
         # Return the natural log of num1
         natlog = math.log(num1)
+        return natlog
 
     else:
         raise ValueError(
